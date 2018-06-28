@@ -3,7 +3,8 @@ const WINDOW_HEIGHT = 768;
 const RADIUS = 8; //圆的半径
 const MARGIN_TOP = 60; //上边距
 const MARGIN_LEFT = 30; //第一个数字距离画布左边距的距离、
-const endTime = new Date(2018, 6, 30, 0, 0, 0);
+const endTime = new Date(2018, 5, 30, 0, 0, 0);
+let curShowTimeSeconds = 0;
 window.onload = function () {
     let canvas = document.getElementById("canvas");
     let context = canvas.getContext("2d");
@@ -18,9 +19,10 @@ window.onload = function () {
 函数功能：绘制倒计时
     @para cxt:上下文绘图环境*/
 function render(cxt) {
-    let hours = endTime.getHours();
-    let minutes = 59;
-    let second = 59;
+    curShowTimeSeconds = getCurrentShowTimeSeconds();
+    let hours = parseInt(curShowTimeSeconds / 3600);
+    let minutes = parseInt((curShowTimeSeconds - hours * 3600) / 60);
+    let second = curShowTimeSeconds % 60;
 
     renderDigit(MARGIN_LEFT, MARGIN_TOP, parseInt(hours / 10), cxt);
     renderDigit(MARGIN_LEFT + 15 * (RADIUS + 1), MARGIN_TOP, parseInt(hours % 10), cxt);
@@ -31,6 +33,14 @@ function render(cxt) {
     renderDigit(MARGIN_LEFT + 78 * (RADIUS + 1), MARGIN_TOP, parseInt(second / 10), cxt);
     renderDigit(MARGIN_LEFT + 93 * (RADIUS + 1), MARGIN_TOP, parseInt(second % 10), cxt);
 
+}
+
+function getCurrentShowTimeSeconds() {
+    let curTime = new Date();
+    console.log(endTime.toLocaleDateString())
+    let ret = endTime.getTime() - curTime.getTime();
+    ret = Math.round(ret / 1000);
+    return ret >= 0 ? ret : 0;
 }
 
 /*
