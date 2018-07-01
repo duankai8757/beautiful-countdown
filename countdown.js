@@ -28,6 +28,7 @@ function render(cxt) {
     let hours = parseInt(curShowTimeSeconds / 3600);
     let minutes = parseInt((curShowTimeSeconds - hours * 3600) / 60);
     let second = curShowTimeSeconds % 60;
+
     // 将时间绘制出来
     renderDigit(MARGIN_LEFT, MARGIN_TOP, parseInt(hours / 10), cxt);
     renderDigit(MARGIN_LEFT + 15 * (RADIUS + 1), MARGIN_TOP, parseInt(hours % 10), cxt);
