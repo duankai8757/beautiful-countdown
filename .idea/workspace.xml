@@ -20,8 +20,11 @@
       <file leaf-file-name="countdown.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/countdown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="260">
+              <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+              <folding>
+                <element signature="e#2704#3785#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +142,7 @@
       <workItem from="1530191921659" duration="3034000" />
       <workItem from="1530196149789" duration="3368000" />
       <workItem from="1530239143789" duration="6252000" />
-      <workItem from="1530453544596" duration="342000" />
+      <workItem from="1530453544596" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -169,11 +172,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530246318308</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成动画效果">
+      <created>1530453901955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530453901955</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12996000" />
+    <option name="totallyTimeSpent" value="13065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -215,6 +225,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="e#2704#3785#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -312,8 +325,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="260">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+          <folding>
+            <element signature="e#2704#3785#0" />
+          </folding>
         </state>
       </provider>
     </entry>

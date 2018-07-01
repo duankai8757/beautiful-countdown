@@ -134,7 +134,7 @@ function addBalls(x, y, num) {
                     vx: Math.pow(-1, Math.ceil(Math.random() * 1000)) * 4,
                     vy: -5,
                     color: colors[Math.floor(Math.random() * 14)]
-                }
+                };
                 balls.push(aball)
             }
         }
