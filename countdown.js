@@ -154,6 +154,7 @@ function renderDigit(x, y, num, cxt) {
             if (digit[num][i][j] === 1) {
                 cxt.beginPath();
                 /* 利用格子系统计算格子的位置
+
                  第(i,j)个圆心的位置：centerX：x+j*(R+1)+(R+1) centerY：y+i*(R+1)+(R+1)
                  arc()
                  @para 圆心X轴位置
