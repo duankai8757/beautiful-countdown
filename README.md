@@ -4,8 +4,8 @@
 
 一、时钟   
 
-![时钟效果](/效果图/clock.gif)   
+![时钟效果](effectpic/clock.gif)   
 
 ##一、倒计时   
 
-![倒计时](/效果图/countdown.gif)
+![倒计时](effectpic/countdown.gif)
