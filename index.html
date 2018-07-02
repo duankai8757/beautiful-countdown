@@ -3,13 +3,30 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <canvas id="canvas" style="display:block;margin:50px auto;">
-        当前浏览器不支持Canvas，请更换浏览器后再试
-    </canvas>
+<div>
+    <div class="form-div">
+        <label>类型</label>
+        <select>
+            <option>指定某一时间倒计时</option>
+            <option>指定时间差倒计时</option>
+            <option>时钟</option>
+            <option>秒表</option>
+        </select>
+    </div>
+    <div class="form-div">
+        <label>时间选择：</label>
+        <input>
+    </div>
+    <button>开始</button>
+</div>
+<canvas id="canvas" style="display:block;margin:50px auto;">
+    当前浏览器不支持Canvas，请更换浏览器后再试
+</canvas>
 
-    <script src="digit.js"></script>
-    <script src="countdown.js"></script>
+<script src="digit.js"></script>
+<script src="countdown.js"></script>
 </body>
 </html>

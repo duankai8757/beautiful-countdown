@@ -3,13 +3,24 @@ const WINDOW_HEIGHT = 768;
 const RADIUS = 8; //圆的半径
 const MARGIN_TOP = 60; //上边距
 const MARGIN_LEFT = 30; //第一个数字距离画布左边距的距离、
-const endTime = new Date(2018, 5, 30, 0, 0, 0);
+let type = 2;
+let endTime = new Date();
+
 let curShowTimeSeconds = 0;
 let balls = [];
 const colors = ["#f44336", "#e91e63", "#9c27b0", "#673ab7", "#3f51b5", "#2196f3", "#009688", "#4caf50", "#8bc34a", "#ffeb3b", "#ff9800", "#ff5722", "#9e9e9e", "#607d8b"];
 window.onload = function () {
     let canvas = document.getElementById("canvas");
     let context = canvas.getContext("2d");
+
+    if (type === 1) {
+        let endTime = new Date(2018, 6, 3, 0, 0, 0);
+    }
+
+    else if (type === 3) {
+        let now = new Date();
+        endTime.setTime(now.getTime() + 3600 * 1000);
+    }
 
     canvas.height = WINDOW_HEIGHT;
     canvas.width = WINDOW_WIDTH;
@@ -34,7 +45,7 @@ function render(cxt) {
     renderDigit(MARGIN_LEFT + 15 * (RADIUS + 1), MARGIN_TOP, parseInt(hours % 10), cxt);
     renderDigit(MARGIN_LEFT + 30 * (RADIUS + 1), MARGIN_TOP, 10, cxt);
     renderDigit(MARGIN_LEFT + 39 * (RADIUS + 1), MARGIN_TOP, parseInt(minutes / 10), cxt);
-    renderDigit(MARGIN_LEFT + 54 * (RADIUS + 1), MARGIN_TOP, parseInt(hours % 10), cxt);
+    renderDigit(MARGIN_LEFT + 54 * (RADIUS + 1), MARGIN_TOP, parseInt(minutes % 10), cxt);
     renderDigit(MARGIN_LEFT + 69 * (RADIUS + 1), MARGIN_TOP, 10, cxt);
     renderDigit(MARGIN_LEFT + 78 * (RADIUS + 1), MARGIN_TOP, parseInt(second / 10), cxt);
     renderDigit(MARGIN_LEFT + 93 * (RADIUS + 1), MARGIN_TOP, parseInt(second % 10), cxt);
@@ -53,9 +64,29 @@ function render(cxt) {
 /*得到当前时间于endtime的差值秒数*/
 function getCurrentShowTimeSeconds() {
     let curTime = new Date();
+    /*let type = 1;
+    let curTime = new Date();
+    let ret2 = curTime.getTime();
     let ret = endTime.getTime() - curTime.getTime();
+    endTime.setTime(endTime.getTime() + 3600 * 1000);
+    let ret3 = endTime.getTime() - curTime.getTime();
     ret = Math.round(ret / 1000);
-    return ret >= 0 ? ret : 0;
+    ret2 = Math.round(ret2 / 1000 % 86400);
+    return type === 1 ? ret2 : (ret >= 0 ? ret : 0);*/
+    switch (type) {
+        case 1:
+            let ret = endTime.getTime() - curTime.getTime();
+            ret = Math.round(ret / 1000);
+            return ret >= 0 ? ret : 0;
+        case 2:
+            let ret2 = curTime.getHours() * 3600 + curTime.getMinutes() * 60 + curTime.getSeconds();
+            return ret2;
+        case 3:
+
+            let ret3 = endTime.getTime() - curTime.getTime();
+            ret3 = Math.round(ret3 / 1000);
+            return ret3 >= 0 ? ret3 : 0;
+    }
 }
 
 /*当前时间与绘制时间进行比对 检测时间的改变
