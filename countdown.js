@@ -3,7 +3,7 @@ const WINDOW_HEIGHT = 768;
 const RADIUS = 8; //圆的半径
 const MARGIN_TOP = 60; //上边距
 const MARGIN_LEFT = 30; //第一个数字距离画布左边距的距离、
-let type = 2;
+let type = 3;
 let endTime = new Date();
 
 let curShowTimeSeconds = 0;
