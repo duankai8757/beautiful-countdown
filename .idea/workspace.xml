@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/countdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,19 +20,36 @@
         <entry file="file://$PROJECT_DIR$/countdown.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2869">
-              <caret line="151" column="32" lean-forward="true" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+              <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="209">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -61,6 +76,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,6 +88,7 @@
         <option value="$PROJECT_DIR$/digit.js" />
         <option value="$PROJECT_DIR$/countdown.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -81,8 +102,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="310" />
-    <option name="y" value="16" />
+    <option name="x" value="-23" />
+    <option name="y" value="12" />
     <option name="width" value="1680" />
     <option name="height" value="1020" />
   </component>
@@ -92,18 +113,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="新建文件夹" type="b2602c69:ProjectViewProjectNode" />
+              <item name="新建文件夹" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,6 +136,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git项目\新建文件夹" />
       <recent name="E:\Git项目\beautiful countdown" />
     </key>
   </component>
@@ -146,6 +168,7 @@
       <workItem from="1530453544596" duration="1127000" />
       <workItem from="1530491792277" duration="1073000" />
       <workItem from="1530507143894" duration="4625000" />
+      <workItem from="1530627861712" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -196,21 +219,27 @@
       <option name="project" value="LOCAL" />
       <updated>1530454065175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme.md">
+      <created>1530628038459</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530628038459</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19479000" />
+    <option name="totallyTimeSpent" value="19865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="14" width="1344" height="816" extended-state="0" />
-    <editor active="true" />
+    <frame x="-18" y="10" width="1344" height="816" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24770643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24770643" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31966054" />
@@ -235,7 +264,8 @@
     <MESSAGE value="qwe" />
     <MESSAGE value="时间展示" />
     <MESSAGE value="完成动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成动画效果" />
+    <MESSAGE value="Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,6 +273,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/countdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="151" column="32" lean-forward="true" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2964">
@@ -383,17 +437,33 @@
     <entry file="file://$PROJECT_DIR$/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2869">
-          <caret line="151" column="32" lean-forward="true" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+          <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effectpic/clock.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
