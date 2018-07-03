@@ -6,6 +6,6 @@
 
 ![时钟效果](effectpic/clock.gif)   
 
-##一、倒计时   
+一、倒计时   
 
-![倒计时](effectpic/countdown.gif)
+![倒计时](effectpic/countdow.gif)
