@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="完成动画效果">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -84,7 +82,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
+    <option name="x" value="25" />
     <option name="y" value="20" />
     <option name="width" value="1680" />
     <option name="height" value="1020" />
@@ -156,7 +154,7 @@
       <workItem from="1530507143894" duration="4625000" />
       <workItem from="1530535083511" duration="2273000" />
       <workItem from="1530537818465" duration="348000" />
-      <workItem from="1530540143199" duration="988000" />
+      <workItem from="1530540143199" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -235,20 +233,27 @@
       <option name="project" value="LOCAL" />
       <updated>1530537830835</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="完成动画效果">
+      <created>1530541137355</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530541137355</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23088000" />
+    <option name="totallyTimeSpent" value="23785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="16" width="1344" height="816" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24770643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24770643" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
