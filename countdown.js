@@ -58,7 +58,6 @@ function render(cxt) {
         cxt.closePath();
         cxt.fill();
     }
-
 }
 
 /*得到当前时间于endtime的差值秒数*/
