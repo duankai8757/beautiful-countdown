@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽图片</title>
+    <style>
+        body, div {
+            margin: 0;
+            padding: 0;
+        }
+
+        #d1 {
+            width: 500px;
+            height: 400px;
+            border: 2px solid #00FFD1;
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+    <canvas id="myCanvas" width="500" height="400">
+        <p>您的系统不支持此程序!</p>
+    </canvas>
+</div>
+<script>
+    const canva = document.getElementById("myCanvas");
+    const cansText = canva.getContext("2d");
+
+    let img = new Image();
+    img.src='pdd.png';
+    cansText.drawImage(img, 50, 50, 150, 100);
+    //在事件外声明需要用到的变量
+    let ax, ay, x, y;
+
+    canva.onmousedown = function (e) {
+        canva.onmousemove = function (e) {
+            x = e.clientX;
+            y = e.clientY;
+
+            //限制移动不能超出画布
+            (x < 173) ? ax = 75 : ax = 425;
+            (y < 148) ? ay = 50 : ay = 350;
+
+            (x < 425 && x > 75) ? x = e.clientX : x = ax;
+
+            (y > 50 && y < 350) ? y = e.clientY : y = ay;
+
+            //先清除之前的然后重新绘制
+            cansText.clearRect(0, 0, canva.width, canva.height);
+            cansText.drawImage(img, x - 75, y - 50, 150, 100);
+        };
+
+        canva.onmouseup = function () {
+            canva.onmousemove = null;
+            canva.onmouseup = null;
+        };
+    }
+
+</script>
+</body>
+</html>
