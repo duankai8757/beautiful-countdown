@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <style>
+        #anim {
+            position: relative;
+            width: 300px;
+            height: 60px;
+            border-radius: 5px;
+            background: orange;
+            text-align: center;
+            line-height: 60px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div id="anim">点击运行动画</div>
+
+<script>
+
+    // 兼容设置
+    window.requestAnimFrame = (function(){
+        return  window.requestAnimationFrame       ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame    ||
+            window.oRequestAnimationFrame      ||
+            window.msRequestAnimationFrame     ||
+            function( callback ){
+                window.setTimeout(callback, 1000 / 60);
+            };
+    })();
+
+    // 动画函数
+    var elem = document.getElementById("anim");
+
+    var startTime = undefined;
+
+    function render(time) {
+
+        if (time === undefined)  // time 每个调用render时，都没有定义，所以time是不断变动的
+            time = Date.now();
+        if (startTime === undefined)  // 判断有没有定义，如果没有定义，则赋值(第一次调用render时值的值)，有定义就用定义过的
+            startTime = time;
+
+        elem.style.left = ((time - startTime)/10 % 500) + "px";
+        console.log(time, startTime);
+    }
+
+    // 占击播放动画
+    elem.onclick = function() {
+
+        (function animloop(){
+            render();
+            requestAnimFrame(animloop);
+        })();
+
+    };
+    /*    1、requestAnimationFrame 会把每一帧中的所有DOM操作集中起来，在一次重绘或回流中就完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率，一般来说，这个频率为每秒60帧。
+        2、在隐藏或不可见的元素中，requestAnimationFrame将不会进行重绘或回流，这当然就意味着更少的的cpu，gpu和内存使用量。
+        3、requestAnimFrame 和 定时器setInterval一样也头一个类似的清除方法cancelAnimationFrame/clearInterval(myVar);。*/
+</script>
+</body>
+</html>
