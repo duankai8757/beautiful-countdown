@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //二分查找；
+    function binarySearch(arr, value) {
+        let left = 0;
+        let right = arr.length - 1;
+
+        while (left <= right) {
+            let mid = (left + right) / 2;
+            if (arr[mid] == value) {
+                return mid;
+            } else if (arr[mid] < value) {
+                left = mid + 1
+            } else {
+                right = mid - 1
+            }
+        }
+        return -1;
+    }
+
+    let arr = [4, 9, 213, 34, 54, 65, 9, 1, 23, 546];
+    binarySearch(arr,23)
+</script>
+
+</body>
+</html>
