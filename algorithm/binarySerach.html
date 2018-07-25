@@ -12,6 +12,7 @@
         let right = arr.length - 1;
 
         while (left <= right) {
+
             let mid = (left + right) / 2;
             if (arr[mid] == value) {
                 return mid;
@@ -23,7 +24,6 @@
         }
         return -1;
     }
-
     let arr = [4, 9, 213, 34, 54, 65, 9, 1, 23, 546];
     binarySearch(arr,23)
 </script>
