@@ -38,8 +38,8 @@
       <file leaf-file-name="binarySerach.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/binarySerach.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="103">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -130,10 +130,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,7 +218,9 @@
       <workItem from="1532320834984" duration="2675000" />
       <workItem from="1532394208800" duration="654000" />
       <workItem from="1532398501371" duration="2644000" />
-      <workItem from="1532504479991" duration="26000" />
+      <workItem from="1532504479991" duration="1249000" />
+      <workItem from="1532850519075" duration="600000" />
+      <workItem from="1532872641184" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -376,11 +376,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532339070638</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="二分查找">
+      <created>1532504516077</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532504516078</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55358000" />
+    <option name="totallyTimeSpent" value="57942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -774,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/binarySerach.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="103">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
