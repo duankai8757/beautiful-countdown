@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圣杯布局</title>
+    <style>
+        .container {
+            padding: 0 300px 0 200px;
+
+        }
+
+        .main {
+            width: 100%;
+            float: left;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .left {
+            position: relative;
+            left: -200px;
+            margin-left: -100%;
+            float: left;
+            height: 200px;
+            background-color: green;
+            width: 200px;
+        }
+
+        .right {
+            position: relative;
+            right: -300px;
+            margin-left: -300px;
+            float: left;
+            height: 200px;
+            background-color: red;
+            width: 300px;
+        }
+
+        .content :after {
+            /*content:url(http://img07.tooopen.com/images/20170316/tooopen_sy_201956178977.jpg)*/
+            margin-left: -1px;
+            background: #fff;
+            content: "要求：允许增加额外的DOM节点，但不能修改现有节点顺序。";
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <p>题目要求：针对如下DOM结构，编写CSS，实现三栏水平布局，其中left、right分别位于左右两侧，left宽度为200px，right宽度为300px，main处在中间，宽度自适应。<br></p>
+
+        <!--<P>要求：允许增加额外的DOM节点，但不能修改现有节点顺序。</P>-->
+    </div>
+    <div class="main">main</div>
+    <div class="left">left</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>
