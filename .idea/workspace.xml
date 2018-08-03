@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TESTcss/双飞翼布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/TESTcss/双飞翼布局.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="requestAnimationFrame.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -113,7 +112,6 @@
         <option value="$PROJECT_DIR$/DragDrop/deme2.html" />
         <option value="$PROJECT_DIR$/DragDrop/DragAndDrop.html" />
         <option value="$PROJECT_DIR$/testRequsetAnimationFrame/requestAnimationFrame.html" />
-        <option value="$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/clearfloat.html" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/HorizontallyCentered.html" />
         <option value="$PROJECT_DIR$/algorithm/binarySerach.html" />
@@ -123,6 +121,7 @@
         <option value="$PROJECT_DIR$/TESTcss/testcss.html" />
         <option value="$PROJECT_DIR$/TESTcss/圣杯布局.html" />
         <option value="$PROJECT_DIR$/TESTcss/双飞翼布局.html" />
+        <option value="$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html" />
       </list>
     </option>
   </component>
@@ -145,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +171,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/WebStrom/project/CATRT" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,6 +245,7 @@
       <workItem from="1533046193121" duration="395000" />
       <workItem from="1533086832391" duration="11211000" />
       <workItem from="1533179577460" duration="604000" />
+      <workItem from="1533215426360" duration="1493000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -450,21 +450,35 @@
       <option name="project" value="LOCAL" />
       <updated>1533113550256</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="8.1">
+      <created>1533215483036</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1533215483036</updated>
+    </task>
+    <task id="LOCAL-00031" summary="8.1">
+      <created>1533258117539</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1533258117539</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72874000" />
+    <option name="totallyTimeSpent" value="74367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23976222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.11739746" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.121640734" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
@@ -858,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
