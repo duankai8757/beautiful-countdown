@@ -4,17 +4,23 @@
 <head>
     <meta charset="utf-8" />
     <title>v-bindtest</title>
-
+<style>
+    .active{
+        background-color: orangered;
+        color: white;
+        height: 30px;
+    }
+</style>
 </head>
 
 <body>
     <div id="app">
-        <p v-for="collage in collages">{{collage}}</p>
+        <p v-for="collage in collages" class="active">{{collage}}</p>
     </div>
     <script src="../vue/vue.js"></script>
     <script>
         new Vue({
-            el: 'app',
+            el: '#app',
             data: {
                 collages: [
                     "前端", "后台", "安全"
