@@ -20,8 +20,8 @@
       <file leaf-file-name="v-bind.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="139">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -40,6 +40,7 @@
     <findStrings>
       <find>const</find>
       <find>endTime</find>
+      <find>“</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -83,8 +84,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-1688" />
+    <option name="y" value="28" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,7 +192,8 @@
       <workItem from="1533086832391" duration="11211000" />
       <workItem from="1533179577460" duration="604000" />
       <workItem from="1533215426360" duration="1493000" />
-      <workItem from="1533454187684" duration="757000" />
+      <workItem from="1533454187684" duration="1426000" />
+      <workItem from="1534388375624" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -408,20 +412,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533258117539</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="8.5">
+      <created>1533469568768</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1533469568768</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75124000" />
+    <option name="totallyTimeSpent" value="77069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1688" y="28" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21652594" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.12125535" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.09582864" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
@@ -476,7 +488,8 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="7.31" />
     <MESSAGE value="8.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.1" />
+    <MESSAGE value="8.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,18 +820,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="139">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

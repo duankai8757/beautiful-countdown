@@ -27,6 +27,45 @@
                 ]
             }
         });
+        
+        var script = document.createElement("script");
+
+        var head = document.getElementsByTagName("head")[0];
+
+
+        script.type = "text/javascript";
+
+        script.src = "//static.nowcoder.com/nc/js/1.02.45/sea.js";
+
+
+        // 绑定资源加载成功事件
+
+        script.onreadystatechange = function( ){
+            console.log("onreadystatechange");
+            console.log(event);
+// 判断资源加载状态是否为加载成功或加载完成
+
+            if( /^(loaded|complete)$/.test (script.readyState  )  ) {
+
+                script.onreadystatechange = null;
+                console.log(script)
+
+            }
+
+        };
+
+
+        // 绑定资源加载失败事件
+
+        script.onerror = function( ) {
+
+            console.log("error"
+            )
+
+        };
+
+
+        head.insertBefore (script , head.firstChild)
     </script>
 </body>
 
