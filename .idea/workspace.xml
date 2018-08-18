@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
+    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="8.16">
+      <change afterPath="$PROJECT_DIR$/testjs/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testjs/testjs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuev-bind/v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuev-bind/v-bind.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="v-bind.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="v-bind.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="222">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testjs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testjs/testjs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testjs/test2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -41,9 +60,13 @@
       <find>const</find>
       <find>endTime</find>
       <find>“</find>
+      <find>”</find>
+      <find>’</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
+      <replace>&quot;</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +94,8 @@
         <option value="$PROJECT_DIR$/TESTcss/双飞翼布局.html" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html" />
         <option value="$PROJECT_DIR$/vuev-bind/v-bind.html" />
+        <option value="$PROJECT_DIR$/testjs/testjs.html" />
+        <option value="$PROJECT_DIR$/testjs/test2.html" />
       </list>
     </option>
   </component>
@@ -84,10 +109,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1688" />
-    <option name="y" value="28" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,12 +130,7 @@
             <path>
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="DragDrop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="vuev-bind" type="462c0819:PsiDirectoryNode" />
+              <item name="testjs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,7 +142,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/WebStrom/project/CATRT_ADMIN" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -193,7 +213,7 @@
       <workItem from="1533179577460" duration="604000" />
       <workItem from="1533215426360" duration="1493000" />
       <workItem from="1533454187684" duration="1426000" />
-      <workItem from="1534388375624" duration="1276000" />
+      <workItem from="1534388375624" duration="7156000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -419,21 +439,28 @@
       <option name="project" value="LOCAL" />
       <updated>1533469568768</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="8.16">
+      <created>1534411630882</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1534411630882</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77069000" />
+    <option name="totallyTimeSpent" value="82949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1688" y="28" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21652594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.09582864" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.12125535" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
@@ -489,7 +516,8 @@
     <MESSAGE value="7.31" />
     <MESSAGE value="8.1" />
     <MESSAGE value="8.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.5" />
+    <MESSAGE value="8.16" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -497,16 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/digit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -820,12 +838,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="222">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/testjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>

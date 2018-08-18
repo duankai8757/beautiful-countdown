@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var organnum = readInt()
+
+    var sort=0;
+    var times=[]
+    var delete=[];
+    var time='';
+    while(time=read_line()){
+        var arr = read_line().split(" ");
+        arr[2] = sort++;
+        times.push(arr);
+    }
+
+    for(var i=0,long=times.length;i<long;i++){
+        for(var j=0;j<long;j++){
+            if(times[i][0]<times[j][1]||times[i][1]>times[j][0]){
+                delete.push(times[i])
+            }
+        }
+    }
+    print(delete.length);
+    print(delete.join());
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function parse(obj, str) {
+        str.replace('[', '.').replace(']', '').split('.').map(function (ele) {
+            console.log(ele)
+            obj = obj[ele.trim()]
+        });
+        return obj || 'undefined';
+    }
+
+    var object = {
+        b: {c: 4}, d: [{e: 5}, {e: 6}]
+    };
+    console.log(parse(object, 'b.c') == 4) //true
+    console.log(parse(object, 'd[0].e') == 5) //true
+    console.log(parse(object, 'd.0.e') == 5) //true
+    console.log(parse(object, 'd[1].e') == 6) //true
+    console.log(parse(object, 'd.1.e') == 6) //true
+    console.log(parse(object, 'f') == 'undefined') //true
+</script>
+</body>
+</html>
