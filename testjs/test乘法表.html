@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   /* var input=[2,3,4];
+    var n=input[0];
+    var m=input[1];
+    var k=input[2];
+    var nums=[];
+    function bubbleSort(arr) {
+        var len = arr.length;
+        for (var i = 0; i < len - 1; i++) {
+            for (var j = 0; j < len - 1 - i; j++) {
+                if (arr[j] > arr[j+1]) {        // 相邻元素两两对比
+                    var temp = arr[j+1];        // 元素交换
+                    arr[j+1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+    for(var i=1;i<=n;i++){
+        for(var j=1;j<=m;j++){
+            nums.push(j*i)
+        }
+    };
+    var numout=bubbleSort(nums)
+    console.log(numout[k-1])*/
+/*   var input=[3,4,10]
+   var n=input[0];
+   var m=input[1];
+   var k=input[2];
+   var nums=[];
+
+   for(var i=1;i<=n;i++){
+       for(var j=1;j<=m;j++){
+           nums.push(j*i)
+           print(j*i)
+       }
+   };
+   var len = nums.length;
+   for (var i = 0; i < len - 1; i++) {
+       for (var j = 0; j < len - 1 - i; j++) {
+           if (nums[j] > nums[j+1]) {        // 相邻元素两两对比
+               var temp = nums[j+1];        // 元素交换
+               nums[j+1] = nums[j];
+               nums[j] = temp;
+           }
+       }
+   }
+   console.log(nums[k-1])*/
+   var input=read_line().sblit(" ")
+   var n=input[0];
+   var m=input[1];
+   var k=input[2];
+   var nums=[];
+
+   for(var i=1;i<=n;i++){
+       for(var j=1;j<=m;j++){
+           nums.push(j*i)
+       }
+   };
+   var len = nums.length;
+   for (var i = 0; i < len - 1; i++) {
+       for (var j = 0; j < len - 1 - i; j++) {
+           if (nums[j] > nums[j+1]) {        // 相邻元素两两对比
+               var temp = nums[j+1];        // 元素交换
+               nums[j+1] = nums[j];
+               nums[j] = temp;
+           }
+       }
+   }
+   print(nums[k-1])
+</script>
+</body>
+</html>
