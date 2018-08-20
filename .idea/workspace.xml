@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testjs/test乘法表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testjs/textarea.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test乘法表.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test乘法表.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/test乘法表.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="700">
               <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textarea.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testjs/textarea.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#180#184#0" expanded="true" />
+                <element signature="e#190#194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +118,7 @@
         <option value="$PROJECT_DIR$/testjs/testjs.html" />
         <option value="$PROJECT_DIR$/testjs/test2.html" />
         <option value="$PROJECT_DIR$/testjs/test乘法表.html" />
+        <option value="$PROJECT_DIR$/testjs/textarea.html" />
       </list>
     </option>
   </component>
@@ -129,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +238,8 @@
       <workItem from="1533454187684" duration="1426000" />
       <workItem from="1534388375624" duration="7196000" />
       <workItem from="1534729372616" duration="1537000" />
-      <workItem from="1534733539088" duration="1060000" />
+      <workItem from="1534733539088" duration="1098000" />
+      <workItem from="1534768155668" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -464,25 +479,33 @@
       <option name="project" value="LOCAL" />
       <updated>1534598769871</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="8.20">
+      <created>1534746900618</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1534746900618</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85586000" />
+    <option name="totallyTimeSpent" value="86444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.12125535" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.12125535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -535,7 +558,8 @@
     <MESSAGE value="8.5" />
     <MESSAGE value="8.16" />
     <MESSAGE value="8.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.18" />
+    <MESSAGE value="8.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -543,13 +567,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -874,8 +891,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testjs/test乘法表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="700">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/textarea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#180#184#0" expanded="true" />
+            <element signature="e#190#194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
