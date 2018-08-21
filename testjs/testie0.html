@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+<script>
+
+    /*==============duankai ============*/
+    var agent = navigator.userAgent.toLowerCase();
+    if (/(msie\s|trident.*rv:)([\w.]+)/i.test(agent)) {
+        console.log("IE")
+        // $(head[0]).append('<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />')
+    } else {
+        console.log("其他")
+       /* $(head[0]).append(' <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />');
+        $(head[0]).append('<link rel="icon" href="https://res.zgboke.com/logo.png" type=" image/png" >');*/
+    }
+    /*==============duankai ============*/
+</script>
+
+</body>
+</html>
