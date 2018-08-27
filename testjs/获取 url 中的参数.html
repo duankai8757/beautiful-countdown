@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getUrlParam(sUrl, sKey) {
+        var weizhi = sUrl.indexOf("?") + 1
+        var weizhi2 = sUrl.lastIndexOf("#")
+        var parasString = sUrl.slice(weizhi, weizhi2)
+        var paras = parasString.split('&');
+        var parasjson = {}
+
+        paras.forEach(function (value, index, arr) {
+            var a = value.split('=');
+            parasjson[a[0]] !== undefined ? parasjson[a[0]] = parasjson[a[0]].concat('-' + a[1]) : parasjson[a[0]] = a[1];
+        });
+        var keys = []
+        for (var key in parasjson) {
+            if (parasjson[key].indexOf("-") !== -1)
+                parasjson[key] = parasjson[key].split('-')
+            keys.push(key)
+        }
+        if (arguments[1] !== undefined) {
+            return parasjson[arguments[1]]?parasjson[arguments[1]].toString():''
+        } else {
+            return keys.toString()
+        }
+    }
+
+/*
+    链接：https://www.nowcoder.com/questionTerminal/a3ded747e3884a3c86d09d88d1652e10
+        来源：牛客网*/
+
+    function getUrlParam2(sUrl, sKey) {
+        var result,Oparam = {};
+        sUrl.replace(/[\?|&]?(\w+)=(\w+)/g,function($0,$1,$2){
+            Oparam[$1] === void 0 ? Oparam[$1]=$2 : Oparam[$1]=[].concat(Oparam[$1],$2);
+        });
+        sKey === void 0||sKey==='' ? result=Oparam : result=Oparam[sKey]||'';
+        return result;
+    }
+    let url = 'http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe'
+    let result = getUrlParam2(url)
+    let result2 = getUrlParam2(url, 'key')
+    console.log(result)
+    console.log(result2)
+</script>
+</body>
+</html>
