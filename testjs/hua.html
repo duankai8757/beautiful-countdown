@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var line1 =read_line().split(" ");  //变量个数
+    var line1 =[5,3];  //变量个数
+    var n=line1[0]// n次看花;
+    var m=line1[1]// m花;
+    // var lookfarr = read_line().split(" "); //看花数组
+    var lookfarr = [1,2,3,2,2]; //看花数组
+    var Q = 5; //Q问题个数
+
+    var arr = [];   //L R 数组
+    for(var i=0;i<Q;i++){
+        arr[i] =[1,4];
+    }
+
+    for(var i=0;i<Q;i++){
+        var lrarr=lookfarr.slice(arr[i][0],arr[i][1])
+        var result=unique(lrarr)
+        console.log(result)
+        console.log(result.length)
+
+    }
+    //去重
+    function unique(arr){
+        var arr2 = arr.sort();
+        var res = [arr2[0]];
+        for(var i=1;i<arr2.length;i++){
+            if(arr2[i] !== res[res.length-1]){
+                res.push(arr2[i]);
+            }
+        }
+        return res;
+    }
+</script>
+</body>
+</html>

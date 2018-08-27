@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var n = 5;  //长度
+    var arrA =[1,2,4,3,5] //数组A
+    var arrB =[5,2,3,4,1] //数组B
+    var ARR=arrA
+    var length=0
+    for(var i=0;i<n;i++){
+        var thelength=n
+        for(var j=0;i<n;j++){
+            if(i=j){
+                continue
+            }
+            if(arrA.indexOf(arrA[i])>arrA.indexOf(arrA[j])&&arrB.indexOf(arrA[i])<arrB.indexOf(arrA[j])){
+                continue
+            }else{
+                thelength--
+            }
+
+        }
+        length=max(length,thelength)
+    }
+    console.log(length)
+    function max(a,b){
+        return a>b?a:b
+    }
+</script>
+</body>
+</html>
