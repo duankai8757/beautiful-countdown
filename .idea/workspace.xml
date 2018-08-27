@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/testjs/获取 url 中的参数.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testjs/获取 url 中的参数.html" beforeDir="false" afterPath="$PROJECT_DIR$/testjs/获取 url 中的参数.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,11 +83,8 @@
       <file leaf-file-name="获取 url 中的参数.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testjs/获取 url 中的参数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#153#887#0" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -286,7 +283,7 @@
       <workItem from="1535071743855" duration="53000" />
       <workItem from="1535164398933" duration="2182000" />
       <workItem from="1535178307188" duration="717000" />
-      <workItem from="1535333805572" duration="8132000" />
+      <workItem from="1535333805572" duration="11181000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -582,14 +579,29 @@
       <option name="project" value="LOCAL" />
       <updated>1535333849697</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="获取URl中的参数">
+      <created>1535359858730</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1535359858730</updated>
+    </task>
+    <task id="LOCAL-00044" summary="获取URl中的参数">
+      <created>1535360761604</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1535360761604</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107753000" />
+    <option name="totallyTimeSpent" value="110802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21664464" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -655,7 +667,8 @@
     <MESSAGE value="8.18" />
     <MESSAGE value="8.20" />
     <MESSAGE value="算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法" />
+    <MESSAGE value="获取URl中的参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取URl中的参数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1003,11 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testjs/获取 url 中的参数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#153#887#0" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
