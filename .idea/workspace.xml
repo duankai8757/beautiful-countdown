@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="算法">
-      <change afterPath="$PROJECT_DIR$/testjs/sss23123.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testjs/test2312321.html" afterDir="false" />
+    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/testjs/vue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,17 +56,26 @@
       <file leaf-file-name="sss23123.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/sss23123.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="513">
               <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2312321.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testjs/test2312321.html">
+      <file leaf-file-name="头条编程1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testjs/头条编程1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="402">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testjs/vue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -133,6 +141,7 @@
         <option value="$PROJECT_DIR$/testjs/sss.html" />
         <option value="$PROJECT_DIR$/testjs/sss23123.html" />
         <option value="$PROJECT_DIR$/testjs/test2312321.html" />
+        <option value="$PROJECT_DIR$/testjs/vue.html" />
       </list>
     </option>
   </component>
@@ -146,8 +155,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1945" />
-    <option name="height" value="1105" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,6 +272,8 @@
       <workItem from="1535021740188" duration="965000" />
       <workItem from="1535071743855" duration="53000" />
       <workItem from="1535164398933" duration="2182000" />
+      <workItem from="1535178307188" duration="717000" />
+      <workItem from="1535333805572" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <created>1530193184076</created>
@@ -542,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534930786150</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="算法">
+      <created>1535178399366</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1535178399366</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98904000" />
+    <option name="totallyTimeSpent" value="99653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -624,13 +644,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/digit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -957,15 +970,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testjs/sss23123.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="513">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/test2312321.html">
+    <entry file="file://$PROJECT_DIR$/testjs/头条编程1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="402">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
