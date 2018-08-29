@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        nav{
+            background-color: purple;
+            height: 100px;
+        }
+        div{
+            height: 200px;
+        }
+        .sidebar1 {
+            float: left;
+            width: 100px;
+            background-color: navy;
+        }
+
+        .sidebar2 {
+            float: left;
+            width: 100px;
+            background-color: black;
+        }
+
+        .Content {
+            background-color: red;
+        }
+    </style>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <nav></nav>
+    <!--右边宽度固定，左边自适应-->
+        <div class="sidebar1">
+            sidebar1
+        </div>
+        <div v-if="contentshow" class="sidebar2">
+            sidebar2
+        </div>
+        <div v-else class="Content">
+            Content
+        </div>
+</div>
+
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data() {
+            return {contentshow: false}
+        }
+    })
+</script>
+
+</body>
+</html>

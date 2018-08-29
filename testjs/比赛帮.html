@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var family = [{"name": "Jack", "age": 26},
+        {"name": "Jill", "age": 22},
+        {"name": "James", "age": 5},
+        {"name": "Jenny", "age": 2}];
+
+    function screen(arr) {
+        let name = [];
+        arr.forEach(function (value, index, arr) {
+
+            if (value.age >= 18) {
+                name.push(value.name)
+            }
+        })
+        return name
+    }
+
+    // console.log(screen(family))
+
+    function checkuniquechar(string, ignore) {
+        let str = '';
+        if (string === void 0 || string === '') {
+            return false
+        } else {
+            ignore ? str = string.toUpperCase() : str = string;
+            let strarr = str.split('');
+            for (let i = 0, long = strarr.length; i < long; i++) {
+                for (let j = 0, long2 = strarr.length; j < long2; j++) {
+                    if (i === j) {
+                        continue
+                    }
+                    if (strarr[i] === strarr[j]) {
+                        return false
+                    } else {
+                        continue;
+                    }
+                }
+            }
+        }
+        return true
+    }
+
+    // console.log(checkuniquechar('abcdeFE', true))
+    let ex = [{'name': 'a'}, {'name': 'b'}, {'name': 'c'}, {'name': 'a'}];
+
+    function deleteSameValue(arr) {
+        let map=new Map()
+        let result = [];
+        arr.forEach(function (value) {
+            let content = [];
+            for (let i in value) {
+                let o = {};
+                o[i] = value[i];
+                content.push(o)
+            }
+            result.push(content)
+        });
+        return Array.from(new Map(result));
+    }
+    function deleteSameValue(arr) {
+        let hash={}
+        const newArr = arr.reduceRight((item, next) => {
+            hash[next.name] ? '' : hash[next.name] = true && item.push(next);
+            return item
+        }, []);
+        return JSON.stringify(newArr)
+    }
+
+
+    // console.log(JSON.stringify(newArr));
+
+        console.log(deleteSameValue(ex))
+</script>
+</body>
+</html>
