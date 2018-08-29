@@ -58,8 +58,19 @@
     let url = 'http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe'
     let result = getUrlParam(url)
     let result2 = getUrlParam(url, 'key')
-    console.log(result)
-    console.log(result2)
+   /* console.log(result)
+    console.log(result2)*/
+    export const urlParse = (url=location.href) => {
+        const reg = /[?&]([^#&?]+)=([^#&\?=]+)/g;
+        let obj = {};
+        url.replace(reg, (group, catch1, catch2, index, str) => {
+            obj[catch1] = catch2;
+        });
+        return obj;
+    }
+    console.log(urlParse(url))
+    var sssss= new URLSearchParams()
+    // console.log(sssss)
 </script>
 </body>
 </html>
