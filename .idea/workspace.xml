@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/testjs/重建二叉树.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testjs/重建二叉树.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testjs/sizzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/testjs/sizzle.html" afterDir="false" />
     </list>
@@ -17,24 +19,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sizzle.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sizzle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/sizzle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="228">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="重建二叉树.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="重建二叉树.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/jquery.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret column="2303" selection-start-column="2303" selection-end-column="2303" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="获取 url 中的参数.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/获取 url 中的参数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="1197">
               <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
             </state>
           </provider>
@@ -125,7 +149,10 @@
         <option value="$PROJECT_DIR$/testjs/Sidebar.html" />
         <option value="$PROJECT_DIR$/testjs/margin.html" />
         <option value="$PROJECT_DIR$/testjs/获取 url 中的参数.html" />
+        <option value="$PROJECT_DIR$/testjs/girlfriend.html" />
         <option value="$PROJECT_DIR$/testjs/sizzle.html" />
+        <option value="$PROJECT_DIR$/testjs/重建二叉树.js" />
+        <option value="$PROJECT_DIR$/testjs/重建二叉树.html" />
       </list>
     </option>
   </component>
@@ -139,10 +166,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,6 +223,14 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="重建二叉树.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="重建二叉树.js" working-dir="$PROJECT_DIR$/testjs" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.重建二叉树.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -261,14 +296,8 @@
       <workItem from="1535504708100" duration="1537000" />
       <workItem from="1535523673606" duration="4493000" />
       <workItem from="1535590388581" duration="583000" />
-      <workItem from="1535592695355" duration="1779000" />
-    </task>
-    <task id="LOCAL-00004" summary="完成动画效果">
-      <created>1530246318308</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1530246318308</updated>
+      <workItem from="1535592695355" duration="5104000" />
+      <workItem from="1535680921069" duration="4761000" />
     </task>
     <task id="LOCAL-00005" summary="完成动画效果">
       <created>1530453901955</created>
@@ -606,22 +635,29 @@
       <option name="project" value="LOCAL" />
       <updated>1535547610708</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="sizzle">
+      <created>1535607010916</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1535607010916</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137464000" />
+    <option name="totallyTimeSpent" value="145550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21664464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.21968617" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17261055" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.067047074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -688,7 +724,8 @@
     <MESSAGE value="flex圣杯布局" />
     <MESSAGE value="比赛帮" />
     <MESSAGE value="margin" />
-    <option name="LAST_COMMIT_MESSAGE" value="margin" />
+    <MESSAGE value="sizzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="sizzle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,23 +733,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/53ccc94600011fa800000000/canvas-course/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="102" column="5" selection-start-line="95" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effectpic/clock.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1013,18 +1033,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testjs/获取 url 中的参数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="1197">
           <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/girlfriend.html" />
     <entry file="file://$PROJECT_DIR$/testjs/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret column="2303" selection-start-column="2303" selection-end-column="2303" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testjs/sizzle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
