@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Array.prototype.uniq = function () {
+
+        var $ = this;
+        var result = [];
+        $.forEach(function (value, index, array) {
+            if (result.indexOf(value) === -1) {
+                result.push(value)
+            }
+        })
+        return result
+
+    }
+    var a = [1, 1, 1, 2, 3, 4]
+    var b=a.uniq();
+    console.log(b)
+</script>
+</body>
+</html>
