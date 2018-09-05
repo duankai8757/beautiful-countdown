@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 本题为考试多行输入输出规范示例，无需提交，不计分。
+    // var line1 = readline().split(" ");
+    var line1 = [4, 4];
+    var N = line1[0];//N行；
+    var M = line1[1];
+    var lists = [];
+    var readline = ['YXXB', 'XYGX', 'XBYY', 'BXXY'];
+    for (var i = 0; i < N; i++) {
+        lists.push(readline[i].split(""))
+    }
+    var Y = [];
+    var B = [];
+    lists.forEach(function (arr, index, lists) {
+        arr.forEach(function (arr2, index2, list) {
+            if (arr2 === 'Y') {
+                Y.push([index + 1, index2 + 1])
+            }
+            if (arr2 === 'G') {
+                Y.push([index + 1, index2 + 1]);
+                B.push([index + 1, index2 + 1])
+            }
+            if (arr2 === 'B') {
+                B.push([index + 1, index2 + 1])
+            }
+        })
+    });
+    var Ysizes=[];
+    for (var j = 0, leng = Y.length; j < leng; j++) {
+       var cha=Y[j][1]-Y[j][0];
+        if(!Array.indexOf){
+            Array.prototype.indexOf = function(el){
+                for (var i=0,n=this.length; i<n; i++){
+                    if (this[i] === el){
+                        return i;
+                    }
+                }
+                return -1;
+            }
+        }
+        if (Ysizes.indexOf(cha)===-1){
+            Ysizes.push(cha)
+        }
+    }
+    var Bsizes=[];
+    for (var j = 0, leng = B.length; j < leng; j++) {
+        var cha=B[j][1]+B[j][0];
+
+        if (Bsizes.indexOf(cha)===-1){
+            Bsizes.push(cha)
+        }
+    }
+    console.log(Ysizes.length+Bsizes.length)
+
+
+    // print(ans);
+</script>
+</body>
+</html>
