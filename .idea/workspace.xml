@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test9.5/parse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test9.5/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.5/深浅拷贝.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="重建二叉树.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="画图（腾讯）.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testjs/画图（腾讯）.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="132.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testjs/132.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +71,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parse.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="parse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test9.5/parse.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="for.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test9.5/for.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="深浅拷贝.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test9.5/深浅拷贝.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -113,8 +112,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,9 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/DragDrop/deme2.html" />
-        <option value="$PROJECT_DIR$/DragDrop/DragAndDrop.html" />
         <option value="$PROJECT_DIR$/testRequsetAnimationFrame/requestAnimationFrame.html" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/clearfloat.html" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/HorizontallyCentered.html" />
@@ -194,6 +191,9 @@
         <option value="$PROJECT_DIR$/test9.5/qvchong.js" />
         <option value="$PROJECT_DIR$/test9.5/parse.js" />
         <option value="$PROJECT_DIR$/test9.5/parse.html" />
+        <option value="$PROJECT_DIR$/test9.5/for.ts" />
+        <option value="$PROJECT_DIR$/test9.5/for.js" />
+        <option value="$PROJECT_DIR$/test9.5/深浅拷贝.js" />
       </list>
     </option>
   </component>
@@ -265,27 +265,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.parse.html">
+  <component name="RunManager" selected="Node.js.for.js">
     <configuration name="parse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/parse.html" />
     <configuration name="qcchong.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/qcchong.html" />
     <configuration name="根据包名，在指定空间中创建对象.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="根据包名，在指定空间中创建对象.js" working-dir="$PROJECT_DIR$/test9.5" />
-    <configuration name="根据包名，在指定空间中创建对象.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="根据包名，在指定空间中创建对象.js" working-dir="$PROJECT_DIR$/test9.5" />
+    <configuration name="for.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="for.js" working-dir="$PROJECT_DIR$/test9.5" />
     <configuration name="parse.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="parse.js" working-dir="$PROJECT_DIR$/test9.5" />
     <configuration name="qvchong.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="qvchong.js" working-dir="$PROJECT_DIR$/test9.5" />
     <list>
-      <item itemvalue="Node.js.根据包名，在指定空间中创建对象.js" />
       <item itemvalue="Node.js.qvchong.js" />
       <item itemvalue="JavaScript Debug.qcchong.html" />
       <item itemvalue="Node.js.parse.js" />
       <item itemvalue="JavaScript Debug.parse.html" />
+      <item itemvalue="Node.js.for.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.for.js" />
         <item itemvalue="JavaScript Debug.parse.html" />
         <item itemvalue="Node.js.parse.js" />
         <item itemvalue="Node.js.qvchong.js" />
         <item itemvalue="JavaScript Debug.qcchong.html" />
-        <item itemvalue="Node.js.根据包名，在指定空间中创建对象.js" />
       </list>
     </recent_temporary>
   </component>
@@ -358,21 +358,7 @@
       <workItem from="1535780136592" duration="3100000" />
       <workItem from="1535944319278" duration="599000" />
       <workItem from="1535962696053" duration="3460000" />
-      <workItem from="1536137979599" duration="5391000" />
-    </task>
-    <task id="LOCAL-00008" summary="完成动画效果">
-      <created>1530535124886</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1530535124886</updated>
-    </task>
-    <task id="LOCAL-00009" summary="完成动画效果">
-      <created>1530537191165</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1530537191165</updated>
+      <workItem from="1536137979599" duration="6315000" />
     </task>
     <task id="LOCAL-00010" summary="完成动画效果">
       <created>1530537577769</created>
@@ -703,25 +689,41 @@
       <option name="project" value="LOCAL" />
       <updated>1536143013464</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="编程练习">
+      <created>1536225681261</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1536225681261</updated>
+    </task>
+    <task id="LOCAL-00058" summary="编程练习">
+      <created>1536226238832</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1536226238833</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162833000" />
+    <option name="totallyTimeSpent" value="163757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.17261055" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32239658" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32239658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30527818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30527818" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -795,27 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sortCode/Code_00_BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="40" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sortCode/testSortCode/Code_00_BubbleSort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/wdq213.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testjs/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1127,10 +1108,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/for.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test9.5/parse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/for.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/深浅拷贝.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
         </state>
       </provider>
     </entry>
