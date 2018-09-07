@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var num=readInt();
+    var problems=[];
+    while(line=readline()){
+        var lines = line.split(" ");
+        var item={
+            'flag':true,
+            'a':[lines[0],lines[1]],
+            'b':[lines[2],lines[3]]
+        }
+        problems.push(item)
+    }
+problems.sort(function (a,b) {
+    return parseInt(a[1])/parseInt(a[1])-parseInt(b[1])/parseInt(b[1])
+})
+    var times=120;
+    var result=0;
+        for (var i=0;i<num;i++){
+       if (times-x>=0&&problems[i].flag) {
+           result+=y
+       }
+    }
+
+</script>
+</body>
+</html>

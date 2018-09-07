@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f(N, M) {
+        var group = parseInt((parseInt(N) + parseInt(M)) / 3);
+        if (N >= group && M >= group) {
+            return group
+        } else {
+            return N > M ? M : N;
+        }
+    }
+
+    var lines = '4 6'.split(" ");
+    var N = lines[0];
+    var M = lines[1];
+    var result = f(N, M);
+    console.log(result);
+</script>
+</body>
+</html>

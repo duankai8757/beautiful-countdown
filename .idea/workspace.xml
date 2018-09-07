@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test9.5/深浅拷贝.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-7/最大子序列和.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-7/最大子序列和.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.5/hasOwnProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.5/meitu1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.5/meitu2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.5/meituan1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,92 +22,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="132.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testjs/132.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="布局.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9月/布局.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="根据包名，在指定空间中创建对象.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/根据包名，在指定空间中创建对象.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qcchong.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/qcchong.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qvchong.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/qvchong.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/parse.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/parse.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="for.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test9.5/for.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="418">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="深浅拷贝.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="深浅拷贝.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test9.5/深浅拷贝.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+            <state relative-caret-position="304">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="根据闭包，在指定空间创建对象.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9.5/根据闭包，在指定空间创建对象.html">
+      <file leaf-file-name="hasOwnProperty.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test9.5/hasOwnProperty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="头条编程1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testjs/头条编程1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meitu2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test9.5/meitu2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="最大子序列和.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9-7/最大子序列和.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="最大子序列和.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9-7/最大子序列和.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meituan1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test9.5/meituan1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meitu1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test9.5/meitu1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -112,9 +111,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -130,6 +129,7 @@
       <find>jquery</find>
       <find>’</find>
       <find>‘</find>
+      <find>Maximum</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -143,12 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testRequsetAnimationFrame/requestAnimationFrame.html" />
-        <option value="$PROJECT_DIR$/testRequestAnimationFrame/clearfloat.html" />
-        <option value="$PROJECT_DIR$/testRequestAnimationFrame/HorizontallyCentered.html" />
-        <option value="$PROJECT_DIR$/algorithm/binarySerach.html" />
-        <option value="$PROJECT_DIR$/Transform/transform.html" />
-        <option value="$PROJECT_DIR$/AugustTodolist/8.1.js" />
         <option value="$PROJECT_DIR$/testRequestAnimationFrame/floatdiv.html" />
         <option value="$PROJECT_DIR$/TESTcss/testcss.html" />
         <option value="$PROJECT_DIR$/TESTcss/圣杯布局.html" />
@@ -194,6 +188,12 @@
         <option value="$PROJECT_DIR$/test9.5/for.ts" />
         <option value="$PROJECT_DIR$/test9.5/for.js" />
         <option value="$PROJECT_DIR$/test9.5/深浅拷贝.js" />
+        <option value="$PROJECT_DIR$/test9.5/hasOwnProperty.js" />
+        <option value="$PROJECT_DIR$/test9.5/meituan1.js" />
+        <option value="$PROJECT_DIR$/test9.5/meitu1.html" />
+        <option value="$PROJECT_DIR$/test9.5/meitu2.html" />
+        <option value="$PROJECT_DIR$/9-7/最大子序列和.html" />
+        <option value="$PROJECT_DIR$/9-7/最大子序列和.js" />
       </list>
     </option>
   </component>
@@ -207,8 +207,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-77" />
-    <option name="y" value="197" />
+    <option name="x" value="-79" />
+    <option name="y" value="195" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -218,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,13 +229,17 @@
             <path>
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="test9.5" type="462c0819:PsiDirectoryNode" />
+              <item name="9-7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="9月" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,27 +270,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.for.js">
+  <component name="RunManager" selected="Node.js.最大子序列和.js">
+    <configuration name="最大子序列和.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/9-7/最大子序列和.html" />
+    <configuration name="meitu1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/meitu1.html" />
     <configuration name="parse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/parse.html" />
-    <configuration name="qcchong.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/qcchong.html" />
-    <configuration name="根据包名，在指定空间中创建对象.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="根据包名，在指定空间中创建对象.js" working-dir="$PROJECT_DIR$/test9.5" />
-    <configuration name="for.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="for.js" working-dir="$PROJECT_DIR$/test9.5" />
-    <configuration name="parse.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="parse.js" working-dir="$PROJECT_DIR$/test9.5" />
-    <configuration name="qvchong.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="qvchong.js" working-dir="$PROJECT_DIR$/test9.5" />
+    <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$/9-7" />
+    <configuration name="最大子序列和.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="最大子序列和.js" working-dir="$PROJECT_DIR$/9-7" />
+    <configuration name="meituan1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="meituan1.js" working-dir="$PROJECT_DIR$/test9.5" />
     <list>
-      <item itemvalue="Node.js.qvchong.js" />
-      <item itemvalue="JavaScript Debug.qcchong.html" />
-      <item itemvalue="Node.js.parse.js" />
-      <item itemvalue="JavaScript Debug.parse.html" />
-      <item itemvalue="Node.js.for.js" />
+      <item itemvalue="Node.js.meituan1.js" />
+      <item itemvalue="JavaScript Debug.meitu1.html" />
+      <item itemvalue="Node.js.最大子序列和.js" />
+      <item itemvalue="Node.js.1.js" />
+      <item itemvalue="JavaScript Debug.最大子序列和.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.for.js" />
-        <item itemvalue="JavaScript Debug.parse.html" />
-        <item itemvalue="Node.js.parse.js" />
-        <item itemvalue="Node.js.qvchong.js" />
-        <item itemvalue="JavaScript Debug.qcchong.html" />
+        <item itemvalue="Node.js.最大子序列和.js" />
+        <item itemvalue="JavaScript Debug.最大子序列和.html" />
+        <item itemvalue="Node.js.1.js" />
+        <item itemvalue="JavaScript Debug.meitu1.html" />
+        <item itemvalue="Node.js.meituan1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -358,14 +363,9 @@
       <workItem from="1535780136592" duration="3100000" />
       <workItem from="1535944319278" duration="599000" />
       <workItem from="1535962696053" duration="3460000" />
-      <workItem from="1536137979599" duration="6315000" />
-    </task>
-    <task id="LOCAL-00010" summary="完成动画效果">
-      <created>1530537577769</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1530537577769</updated>
+      <workItem from="1536137979599" duration="11439000" />
+      <workItem from="1536301239228" duration="563000" />
+      <workItem from="1536302203899" duration="1287000" />
     </task>
     <task id="LOCAL-00011" summary="完成动画效果">
       <created>1530537830834</created>
@@ -703,17 +703,22 @@
       <option name="project" value="LOCAL" />
       <updated>1536226238833</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="编程练习">
+      <created>1536226612522</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1536226612522</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163757000" />
+    <option name="totallyTimeSpent" value="170731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -723,7 +728,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30527818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2981455" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -797,43 +803,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testjs/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pic">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Transform/transform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -866,13 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/头条编程1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1108,31 +1070,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test9.5/for.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/for.ts" />
     <entry file="file://$PROJECT_DIR$/test9.5/parse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test9.5/for.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test9.5/深浅拷贝.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        <state relative-caret-position="304">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/hasOwnProperty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testjs/头条编程1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/meitu1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/meituan1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9.5/meitu2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-7/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-7/最大子序列和.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-7/最大子序列和.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
