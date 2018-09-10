@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/9-9/jd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.10/HTML模板匹配.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.10/数组去重.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/冒泡.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/希尔排序.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/归并排序.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/快速排序.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/插入排序.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序/选择排序.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.10/字符串ASCII码并逆序排.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="HTML模板匹配.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9.10/HTML模板匹配.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="19">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -37,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9.10/数组去重.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="字符串ASCII码并逆序排.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9.10/字符串ASCII码并逆序排.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -83,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vuev-bind/v-bind.html" />
         <option value="$PROJECT_DIR$/testjs/testjs.html" />
         <option value="$PROJECT_DIR$/testjs/test2.html" />
         <option value="$PROJECT_DIR$/testjs/test乘法表.html" />
@@ -134,6 +134,7 @@
         <option value="$PROJECT_DIR$/9-9/jd.js" />
         <option value="$PROJECT_DIR$/9.10/HTML模板匹配.js" />
         <option value="$PROJECT_DIR$/9.10/数组去重.js" />
+        <option value="$PROJECT_DIR$/9.10/字符串ASCII码并逆序排.js" />
       </list>
     </option>
   </component>
@@ -158,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,10 +222,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.jd.js">
+  <component name="RunManager" selected="Node.js.字符串ASCII码并逆序排.js">
     <configuration name="最大子序列和.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/9-7/最大子序列和.html" />
     <configuration name="meitu1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/test9.5/meitu1.html" />
-    <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$/9-7" />
+    <configuration name="字符串ASCII码并逆序排.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="字符串ASCII码并逆序排.js" working-dir="$PROJECT_DIR$/9.10" />
     <configuration name="最大子序列和.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="最大子序列和.js" working-dir="$PROJECT_DIR$/9-7" />
     <configuration name="jd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="jd.js" working-dir="$PROJECT_DIR$/9-9" />
     <configuration name="settimeout第三个参数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="settimeout第三个参数.js" working-dir="$PROJECT_DIR$/9-8" />
@@ -233,11 +234,11 @@
       <item itemvalue="Node.js.最大子序列和.js" />
       <item itemvalue="JavaScript Debug.最大子序列和.html" />
       <item itemvalue="Node.js.settimeout第三个参数.js" />
-      <item itemvalue="Node.js.jd.js" />
+      <item itemvalue="Node.js.字符串ASCII码并逆序排.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.jd.js" />
+        <item itemvalue="Node.js.字符串ASCII码并逆序排.js" />
         <item itemvalue="Node.js.settimeout第三个参数.js" />
         <item itemvalue="Node.js.最大子序列和.js" />
         <item itemvalue="JavaScript Debug.最大子序列和.html" />
@@ -319,6 +320,7 @@
       <workItem from="1536302203899" duration="1936000" />
       <workItem from="1536392774970" duration="672000" />
       <workItem from="1536496111268" duration="2252000" />
+      <workItem from="1536564847407" duration="1020000" />
     </task>
     <task id="LOCAL-00013" summary="完成动画效果">
       <created>1530627426240</created>
@@ -667,11 +669,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174304000" />
+    <option name="totallyTimeSpent" value="175324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -683,11 +684,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.31824818" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2981455" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -759,13 +760,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testjs/比赛帮.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testjs/vue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1040,9 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,8 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9.10/HTML模板匹配.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1091,6 +1082,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.10/字符串ASCII码并逆序排.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
