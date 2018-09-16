@@ -17,6 +17,18 @@ function insertSort (arr) {
   console.timeEnd('插入排序')
   return arr
 }
-
+for (name of arr){
+  if (arr.hasOwnProperty(name)){
+    console.log(name)
+  }
+}
 console.log(arr)
+console.log(typeof [...arr])
+console.log([...arr] instanceof Array)
+console.log([...arr].constructor)
+console.log("===============")
+console.log([...arr].hasOwnProperty(toString))
+console.log(arr.constructor)
+console.log(Object.prototype)
+console.log(Object.prototype.toString.call([...arr]))
 console.log(insertSort([...arr]))
