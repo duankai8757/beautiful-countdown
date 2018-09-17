@@ -2,7 +2,6 @@ const arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
 
 function insertSort (arr) {
   let count = 0
-  console.time('插入排序')
   for (let i = 1; i < arr.length; i++) {
     let key = arr[i]
     let j = i - 1
@@ -17,11 +16,7 @@ function insertSort (arr) {
   console.timeEnd('插入排序')
   return arr
 }
-for (name of arr){
-  if (arr.hasOwnProperty(name)){
-    console.log(name)
-  }
-}
+
 console.log(arr)
 console.log(typeof [...arr])
 console.log([...arr] instanceof Array)
