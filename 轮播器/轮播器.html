@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        li{list-style-type: none;}
+        .carousel-wrap{
+            position: relative;overflow: hidden;height: 454px;
+            width: 1200px;
+            margin: 100px auto;
+        }
+        .carousel{width: 8400px;z-index: 9;position: absolute;left: -1200px;top: 0;}
+        .carousel li {float: left;width: 1200px;}
+        .carousel img{width: 100%;}
+        .arrow{z-index: 10;position: absolute;width: 30px;height: 50px;text-align: center;line-height: 50px;
+            top: 50%;margin-top: -25px;text-decoration: none;color: #333;
+            font-family: '宋体';font-size: 30px;background: rgba(0,0,0,.2);font-weight: 600;
+        }
+        .arrow-left{left: 0;}
+        .arrow-right{right: 0}
+        .indicators{z-index: 10;position: absolute;right: 10px;bottom: 10px;}
+        .indicator{float: left;margin-right: 10px;width: 8px;height: 8px;border-radius: 50%; background: #ccc;}
+        .indicator.active{background: #333;}
+    </style>
+</head>
+
+<body>
+
+<div class="carousel-wrap">
+    <ul class="carousel">
+        <li><img src="5.jpg" alt=""></li>
+        <li><img src="1.jpg" alt=""></li>
+        <li><img src="2.jpg" alt=""></li>
+        <li><img src="3.jpg" alt=""></li>
+        <li><img src="4.jpg" alt=""></li>
+        <li><img src="5.jpg" alt=""></li>
+        <li><img src="1.jpg" alt=""></li>
+    </ul>
+    <a class="arrow arrow-left" href="">&lt;</a>
+    <a class="arrow arrow-right" href="">&gt;</a>
+    <ul class="indicators">
+        <li class="indicator active"></li>
+        <li class="indicator"></li>
+        <li class="indicator"></li>
+        <li class="indicator"></li>
+        <li class="indicator"></li>
+    </ul>
+</div>
+<script src="jquery.min.js"></script>     //这要引用jquery的方法，W3C能下载。
+<script>
+    var carousel = $('ul.carousel'),
+        arrowLeft = $('a.arrow-left'),
+        arrowRight = $('a.arrow-right'),
+        indicators = $('li.indicator'),
+        carouselWrap = $('div.carousel-wrap');
+
+    var num = 5,carouselWidth=490,count=1,timer=null;
+
+    //设置左右箭头的点击事件
+
+    arrowLeft.click(function (e) {
+
+        e.preventDefault()
+        move(true)
+    })
+    arrowRight.click(function(e){
+        e.preventDefault()
+        move()
+    })
+
+    // 指示器
+    indicators.click(function () {
+        count = $(this).index()
+        setIndicatorStyle()
+        carousel.finish().animate({left:-carouselWidth*count},500)
+    })
+
+    // 设置指示器样式
+    function setIndicatorStyle(){
+        indicators.eq(count-1).addClass('active').siblings().removeClass('active')
+    }
+
+    interval()
+    // 鼠标移入  暂停 自动轮播
+    carouselWrap
+        .mouseover(function () {
+            clearInterval(timer)
+        })
+        .mouseout(interval)   // 鼠标移开 记录轮播
+
+    // 动画 主函数
+    function move(flag) {
+        if(!flag){
+            count++
+            l = -carouselWidth*count
+            if(count===num-1){
+                carousel.finish().animate({
+                    left: l
+                }, 500, function(){
+                    count = 1
+                    setIndicatorStyle()
+                    $(this).css('left', -carouselWidth*count)
+                })
+            }else{
+                setIndicatorStyle()
+                carousel.finish().animate({
+                    left: l
+                }, 500)
+            }
+        }else{
+            count--
+            l = -carouselWidth*count
+            if(count === 0){
+                carousel.finish().animate({
+                    left: l
+                }, 500, function(){
+                    count = num - 2
+                    setIndicatorStyle()
+                    $(this).css('left', -carouselWidth*count)
+                })
+            }else{
+                setIndicatorStyle()
+                carousel.finish().animate({
+                    left: l
+                }, 500)
+            }
+        }
+    }
+
+    // 自动轮播
+    function interval() {
+        timer = setInterval(move, 2000)
+    }
+</script>
+</body>
+</html>

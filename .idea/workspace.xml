@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/防抖和节流/节流.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/防抖和节流/防抖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/淡入淡出css/淡出淡出css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播器/轮播器.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/插入排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/排序/插入排序.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,95 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="搜狗.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9-14/搜狗.js">
+      <file leaf-file-name="轮播器.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/轮播器/轮播器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="25">
+              <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="冒泡.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/冒泡.js">
+      <file leaf-file-name="requestAnimationFrame.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="希尔排序.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/希尔排序.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="插入排序.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/插入排序.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="快速排序.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/排序/快速排序.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="归并排序.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/归并排序.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aa.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9-16/aa.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="选择排序.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="防抖.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/防抖和节流/防抖.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="节流.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/防抖和节流/节流.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            <state relative-caret-position="100">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -152,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testjs/nnnnnn.html" />
-        <option value="$PROJECT_DIR$/testjs/Sidebar.html" />
         <option value="$PROJECT_DIR$/testjs/margin.html" />
         <option value="$PROJECT_DIR$/testjs/获取 url 中的参数.html" />
         <option value="$PROJECT_DIR$/testjs/girlfriend.html" />
@@ -203,6 +131,8 @@
         <option value="$PROJECT_DIR$/防抖和节流/节流.html" />
         <option value="$PROJECT_DIR$/防抖和节流/防抖.html" />
         <option value="$PROJECT_DIR$/排序/插入排序.js" />
+        <option value="$PROJECT_DIR$/淡入淡出css/淡出淡出css.html" />
+        <option value="$PROJECT_DIR$/轮播器/轮播器.html" />
       </list>
     </option>
   </component>
@@ -216,8 +146,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-19" />
-    <option name="y" value="1" />
+    <option name="x" value="-20" />
     <option name="width" value="1245" />
     <option name="height" value="675" />
   </component>
@@ -227,13 +156,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="testRequestAnimationFrame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="Transform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
@@ -248,12 +186,13 @@
             <path>
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="防抖和节流" type="462c0819:PsiDirectoryNode" />
+              <item name="轮播器" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,15 +204,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Git项目\beautiful countdown\9-14" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git项目\beautiful countdown\轮播器" />
       <recent name="E:\Git项目\beautiful countdown\排序" />
       <recent name="E:\Git项目\beautiful countdown\testjs" />
       <recent name="E:\Git项目\beautiful countdown\sortCode" />
       <recent name="E:\Git项目\beautiful countdown\DragDrop" />
-      <recent name="E:\Git项目\beautiful countdown" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git项目\beautiful countdown\9-14" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,10 +227,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.防抖.html">
+  <component name="RunManager" selected="JavaScript Debug.轮播器.html">
     <configuration name="防抖.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/防抖和节流/防抖.html" />
-    <configuration name="aa.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/9-16/aa.html" />
-    <configuration name="插入排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="插入排序.js" working-dir="$PROJECT_DIR$/排序" />
+    <configuration name="轮播器.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/轮播器/轮播器.html" />
+    <configuration name="淡出淡出css.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/淡入淡出css/淡出淡出css.html" />
+    <configuration name="requestAnimationFrame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/testRequestAnimationFrame/requestAnimationFrame.html" />
+    <configuration name="transform.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/Transform/transform.html" />
     <configuration name="快速排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="快速排序.js" working-dir="$PROJECT_DIR$/排序" />
     <configuration name="希尔排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="希尔排序.js" working-dir="$PROJECT_DIR$/排序" />
     <configuration name="归并排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="归并排序.js" working-dir="$PROJECT_DIR$/排序" />
@@ -300,15 +241,19 @@
     <configuration name="平平的冒险探索海域.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="平平的冒险探索海域.js" working-dir="$PROJECT_DIR$/9-11" />
     <configuration name="买糖果.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="买糖果.js" working-dir="$PROJECT_DIR$/9.10" />
     <list>
-      <item itemvalue="Node.js.插入排序.js" />
-      <item itemvalue="JavaScript Debug.aa.html" />
       <item itemvalue="JavaScript Debug.防抖.html" />
+      <item itemvalue="JavaScript Debug.淡出淡出css.html" />
+      <item itemvalue="JavaScript Debug.轮播器.html" />
+      <item itemvalue="JavaScript Debug.transform.html" />
+      <item itemvalue="JavaScript Debug.requestAnimationFrame.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.轮播器.html" />
+        <item itemvalue="JavaScript Debug.requestAnimationFrame.html" />
+        <item itemvalue="JavaScript Debug.transform.html" />
+        <item itemvalue="JavaScript Debug.淡出淡出css.html" />
         <item itemvalue="JavaScript Debug.防抖.html" />
-        <item itemvalue="JavaScript Debug.aa.html" />
-        <item itemvalue="Node.js.插入排序.js" />
       </list>
     </recent_temporary>
   </component>
@@ -391,14 +336,8 @@
       <workItem from="1536832335230" duration="2504000" />
       <workItem from="1536890925438" duration="4377000" />
       <workItem from="1537090212370" duration="8189000" />
-      <workItem from="1537199193106" duration="2538000" />
-    </task>
-    <task id="LOCAL-00020" summary="requestAnimationFrame 和清除浮动">
-      <created>1532013254230</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1532013254230</updated>
+      <workItem from="1537199193106" duration="3307000" />
+      <workItem from="1537207489803" duration="1324000" />
     </task>
     <task id="LOCAL-00021" summary="requestAnimationFrame 和清除浮动">
       <created>1532013312672</created>
@@ -736,14 +675,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537199207627</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="test">
+      <created>1537203083759</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1537203083760</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204435000" />
+    <option name="totallyTimeSpent" value="206528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
@@ -830,22 +776,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/9-11/时间格式化输出.js</url>
+          <url />
           <line>26</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/9-11/平平的冒险探索海域.js</url>
+          <url />
           <line>2</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/9-11/平平的冒险探索海域.js</url>
+          <url />
           <line>39</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/排序/希尔排序.js</url>
+          <url />
           <line>10</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -854,41 +800,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/重建二叉树.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/画图（腾讯）.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testjs/132.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9月/布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test9.5/根据闭包，在指定空间创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1146,7 +1057,7 @@
     <entry file="file://$PROJECT_DIR$/防抖和节流/防抖.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1155,43 +1066,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/冒泡.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/插入排序.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/希尔排序.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/归并排序.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/快速排序.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/淡入淡出css/淡出淡出css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transform/transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/轮播器/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testRequestAnimationFrame/requestAnimationFrame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/轮播器/轮播器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
         </state>
       </provider>
     </entry>
