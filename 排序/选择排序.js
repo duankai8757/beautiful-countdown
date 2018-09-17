@@ -20,6 +20,5 @@ function selectSort (arr) {
   console.timeEnd('选择排序')
   return arr
 }
-
 console.log(arr)
 console.log(selectSort([...arr]))
