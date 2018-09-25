@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/9-20/67.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-20/672.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-20/小米.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-20/頭條.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-25/猪八戒.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-25/猪八戒2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +21,7 @@
       <file leaf-file-name="轮播器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/轮播器/轮播器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="2090">
               <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
             </state>
           </provider>
@@ -32,8 +30,8 @@
       <file leaf-file-name="小米.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9-20/小米.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+            <state relative-caret-position="760">
+              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="頭條.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="頭條.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9-20/頭條.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -68,10 +66,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="猪八戒.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9-25/猪八戒.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="猪八戒2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9-25/猪八戒2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
+            <state relative-caret-position="7391">
               <caret line="402" column="4" selection-start-line="402" selection-start-column="4" selection-end-line="402" selection-end-column="4" />
             </state>
           </provider>
@@ -129,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testjs/重建二叉树.js" />
-        <option value="$PROJECT_DIR$/testjs/画图（腾讯）.html" />
         <option value="$PROJECT_DIR$/testjs/132.html" />
         <option value="$PROJECT_DIR$/9月/布局.html" />
         <option value="$PROJECT_DIR$/test9.5/根据闭包，在指定空间创建对象.html" />
@@ -180,6 +194,8 @@
         <option value="$PROJECT_DIR$/9-20/67.js" />
         <option value="$PROJECT_DIR$/9-20/672.js" />
         <option value="$PROJECT_DIR$/9-20/頭條.js" />
+        <option value="$PROJECT_DIR$/9-25/猪八戒.js" />
+        <option value="$PROJECT_DIR$/9-25/猪八戒2.js" />
       </list>
     </option>
   </component>
@@ -215,6 +231,11 @@
               <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
               <item name="9-20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautiful countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautiful countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="9-25" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,12 +277,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.頭條.js">
-    <configuration name="轮播器.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/轮播器/轮播器.html" />
-    <configuration name="淡出淡出css.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/淡入淡出css/淡出淡出css.html" />
+  <component name="RunManager" selected="Node.js.猪八戒2.js">
     <configuration name="requestAnimationFrame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/testRequestAnimationFrame/requestAnimationFrame.html" />
     <configuration name="transform.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful countdown/Transform/transform.html" />
+    <configuration name="猪八戒2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="猪八戒2.js" working-dir="$PROJECT_DIR$/9-25" />
     <configuration name="小米.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="小米.js" working-dir="$PROJECT_DIR$/9-20" />
+    <configuration name="猪八戒.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="猪八戒.js" working-dir="$PROJECT_DIR$/9-25" />
     <configuration name="頭條.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="頭條.js" working-dir="$PROJECT_DIR$/9-20" />
     <configuration name="希尔排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="希尔排序.js" working-dir="$PROJECT_DIR$/排序" />
     <configuration name="归并排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="归并排序.js" working-dir="$PROJECT_DIR$/排序" />
@@ -270,19 +291,19 @@
     <configuration name="平平的冒险探索海域.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="平平的冒险探索海域.js" working-dir="$PROJECT_DIR$/9-11" />
     <configuration name="买糖果.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="买糖果.js" working-dir="$PROJECT_DIR$/9.10" />
     <list>
-      <item itemvalue="JavaScript Debug.淡出淡出css.html" />
       <item itemvalue="JavaScript Debug.transform.html" />
       <item itemvalue="JavaScript Debug.requestAnimationFrame.html" />
       <item itemvalue="Node.js.小米.js" />
-      <item itemvalue="Node.js.頭條.js" />
+      <item itemvalue="Node.js.猪八戒.js" />
+      <item itemvalue="Node.js.猪八戒2.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.頭條.js" />
+        <item itemvalue="Node.js.猪八戒2.js" />
+        <item itemvalue="Node.js.猪八戒.js" />
         <item itemvalue="Node.js.小米.js" />
         <item itemvalue="JavaScript Debug.requestAnimationFrame.html" />
         <item itemvalue="JavaScript Debug.transform.html" />
-        <item itemvalue="JavaScript Debug.淡出淡出css.html" />
       </list>
     </recent_temporary>
   </component>
@@ -369,14 +390,8 @@
       <workItem from="1537207489803" duration="2238000" />
       <workItem from="1537250135274" duration="2076000" />
       <workItem from="1537373879805" duration="619000" />
-      <workItem from="1537442964444" duration="4785000" />
-    </task>
-    <task id="LOCAL-00025" summary="7.31">
-      <created>1533046517125</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1533046517125</updated>
+      <workItem from="1537442964444" duration="4890000" />
+      <workItem from="1537871090966" duration="3019000" />
     </task>
     <task id="LOCAL-00026" summary="7.31">
       <created>1533046564175</created>
@@ -714,16 +729,22 @@
       <option name="project" value="LOCAL" />
       <updated>1537373895691</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="-">
+      <created>1537452585223</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1537452585224</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214922000" />
+    <option name="totallyTimeSpent" value="218046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1974901" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -738,6 +759,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -793,7 +815,6 @@
     <MESSAGE value="获取URl中的参数" />
     <MESSAGE value="获取URl中的参数(三种方式)" />
     <MESSAGE value="360笔试" />
-    <MESSAGE value="-" />
     <MESSAGE value="flex" />
     <MESSAGE value="flex圣杯布局" />
     <MESSAGE value="比赛帮" />
@@ -806,7 +827,8 @@
     <MESSAGE value="通用时间监听函数" />
     <MESSAGE value="test" />
     <MESSAGE value="轮播器" />
-    <option name="LAST_COMMIT_MESSAGE" value="轮播器" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,13 +856,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/9-20/頭條.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/9-20/頭條.js</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
@@ -848,14 +868,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test9.5/parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test9.5/for.ts" />
     <entry file="file://$PROJECT_DIR$/test9.5/parse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1135,25 +1147,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/轮播器/轮播器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="2090">
           <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9-20/小米.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-20/672.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/9-20/小米.ts" />
     <entry file="file://$PROJECT_DIR$/9-20/小米.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        <state relative-caret-position="760">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1169,7 +1172,7 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
+        <state relative-caret-position="7391">
           <caret line="402" column="4" selection-start-line="402" selection-start-column="4" selection-end-line="402" selection-end-column="4" />
         </state>
       </provider>
@@ -1178,6 +1181,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-20/672.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-25/猪八戒.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-25/猪八戒2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
