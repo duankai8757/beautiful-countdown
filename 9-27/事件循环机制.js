@@ -16,3 +16,10 @@ obj.func().then(function () {
     console.log('D')
 });
 console.log('E');
+
+/*
+console.log('start');
+setTimeout(()=>{
+    console.log('A');
+},1000);
+console.log('end');*/
