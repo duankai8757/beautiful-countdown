@@ -13,3 +13,4 @@ function kinds(n,torf) {
 return result
 }
 console.log(kinds(3,false));
+//0.18
