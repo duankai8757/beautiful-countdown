@@ -19,7 +19,6 @@
                 return 0;
             }
         }
-
         var center = parseInt((left + right) / 2);
         var maxLeftSum = arguments.callee(a, left, center);
         var maxRightSum = arguments.callee(a, center + 1, right);
