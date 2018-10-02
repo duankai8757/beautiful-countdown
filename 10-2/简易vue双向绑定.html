@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据双向绑定简易版</title>
+</head>
+<body>
+<div>
+    <input id="input">
+</div>
+<script>
+    let obj={};
+    let temp={};
+    Object.defineProperty(obj,"name",{
+        get(){
+            return temp[name]
+        },
+        set(val){
+            temp[name]=val;
+            ele.value=val
+        }
+    })
+    let ele=document.getElementById("input");
+    ele.value=obj.name;
+    ele.addEventListener("input",function () {
+            obj.name=this.value
+    })
+</script>
+</body>
+</html>
