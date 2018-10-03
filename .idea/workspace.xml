@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/10-2/简易vue双向绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -93,8 +91,8 @@
       <file leaf-file-name="简易vue双向绑定.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10-2/简易vue双向绑定.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="95">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -443,14 +441,7 @@
       <workItem from="1538152820860" duration="401000" />
       <workItem from="1538284140795" duration="2555000" />
       <workItem from="1538395607666" duration="4097000" />
-      <workItem from="1538464467498" duration="1019000" />
-    </task>
-    <task id="LOCAL-00039" summary="算法">
-      <created>1534846725072</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1534846725072</updated>
+      <workItem from="1538464467498" duration="1742000" />
     </task>
     <task id="LOCAL-00040" summary="算法">
       <created>1534930786149</created>
@@ -788,15 +779,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538421082698</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="簡易vue双向绑定">
+      <created>1538467039819</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1538467039820</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249170000" />
+    <option name="totallyTimeSpent" value="249893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19815059" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -856,7 +853,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.1" />
     <MESSAGE value="8.5" />
     <MESSAGE value="8.16" />
     <MESSAGE value="8.18" />
@@ -881,33 +877,34 @@
     <MESSAGE value="aiqiyi" />
     <MESSAGE value="-" />
     <MESSAGE value="闭包demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="闭包demo" />
+    <MESSAGE value="簡易vue双向绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="簡易vue双向绑定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$PROJECT_DIR$/9-11/时间格式化输出.js</url>
           <line>26</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$PROJECT_DIR$/9-11/平平的冒险探索海域.js</url>
           <line>2</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$PROJECT_DIR$/9-11/平平的冒险探索海域.js</url>
           <line>39</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$PROJECT_DIR$/9-20/頭條.js</url>
           <line>8</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$PROJECT_DIR$/9-20/頭條.js</url>
           <line>5</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -1262,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10-2/简易vue双向绑定.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
