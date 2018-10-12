@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="app">
+<script>
+
+  var obj={};
+  var temp={}
+   Object.defineProperty(obj,'name',{
+       get(){
+           return temp.name;
+       },
+       set(val){
+         temp.name=val;
+         app.value=val
+       }
+   })
+  var app=document.getElementById("app");
+   app.addEventListener('input',function () {
+       obj.name=this.value;
+   })
+</script>
+</body>
+</html>

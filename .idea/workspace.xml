@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="微盟">
-      <change afterPath="$PROJECT_DIR$/css/单行文本超出隐藏并显示省略号/单行文本超出隐藏并显示省略号.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/判断数据类型/object.prototype判断数据类型.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/判断数据类型/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/判断数据类型/判断数据类型.html" afterDir="false" />
+    <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="object.prototype.toString,call()判断数据类型">
+      <change afterPath="$PROJECT_DIR$/手写bind/手写bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写bind/手写bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写bind/手写bind2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写bind/手写简单的v-show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/选择排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/排序/选择排序.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,61 +31,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="6" />
-          <entry key="js" value="9" />
+          <entry key="html" value="11" />
+          <entry key="js" value="10" />
           <entry key="json" value="1" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="11" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="10" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="116" />
-          <entry key="js" value="422" />
-          <entry key="txt" value="2" />
+          <entry key="html" value="797" />
+          <entry key="js" value="424" />
+          <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="116" />
-          <entry key="JavaScript" value="422" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="HTML" value="797" />
+          <entry key="JavaScript" value="424" />
+          <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9.10/数组去重.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9-7/最大子序列和.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +74,61 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写bind.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写简单的v-show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-2/简易vue双向绑定.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写bind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写bind2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/判断数据类型/object.prototype判断数据类型.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="247">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,27 +147,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testjs/获取 url 中的参数.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-885">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/单行文本超出隐藏并显示省略号/单行文本超出隐藏并显示省略号.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,10 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/9-14/sougou.html" />
-        <option value="$PROJECT_DIR$/9-14/搜狗.js" />
-        <option value="$PROJECT_DIR$/排序/希尔排序.js" />
-        <option value="$PROJECT_DIR$/9-16/aa.html" />
         <option value="$PROJECT_DIR$/排序/快速排序.js" />
         <option value="$PROJECT_DIR$/排序/归并排序.js" />
         <option value="$PROJECT_DIR$/防抖和节流/防抖和节流.html" />
@@ -242,6 +245,10 @@
         <option value="$PROJECT_DIR$/判断数据类型/url.js" />
         <option value="$PROJECT_DIR$/判断数据类型/判断数据类型.html" />
         <option value="$PROJECT_DIR$/判断数据类型/object.prototype判断数据类型.js" />
+        <option value="$PROJECT_DIR$/手写bind/手写bind.js" />
+        <option value="$PROJECT_DIR$/手写bind/手写bind.html" />
+        <option value="$PROJECT_DIR$/手写bind/手写bind2.html" />
+        <option value="$PROJECT_DIR$/手写bind/手写简单的v-show.html" />
       </list>
     </option>
   </component>
@@ -287,12 +294,17 @@
             <path>
               <item name="beautiful-countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful-countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="10-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beautiful-countdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="beautiful-countdown" type="462c0819:PsiDirectoryNode" />
-              <item name="判断数据类型" type="462c0819:PsiDirectoryNode" />
+              <item name="vuev-bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beautiful-countdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beautiful-countdown" type="462c0819:PsiDirectoryNode" />
+              <item name="手写bind" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,14 +353,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.object.prototype判断数据类型.js">
-    <configuration name="单行文本超出隐藏并显示省略号.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/css/单行文本超出隐藏并显示省略号/单行文本超出隐藏并显示省略号.html">
+  <component name="RunManager" selected="JavaScript Debug.手写简单的v-show.html">
+    <configuration name="手写bind2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/手写bind/手写bind2.html">
       <method v="2" />
     </configuration>
-    <configuration name="判断数据类型.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/判断数据类型/判断数据类型.html">
+    <configuration name="手写bind.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/手写bind/手写bind.html">
       <method v="2" />
     </configuration>
-    <configuration name="选择排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="选择排序.js" working-dir="$PROJECT_DIR$/排序">
+    <configuration name="手写简单的v-show.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/手写bind/手写简单的v-show.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="简易vue双向绑定.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/10-2/简易vue双向绑定.html">
       <method v="2" />
     </configuration>
     <configuration name="微盟.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="微盟.js" working-dir="$PROJECT_DIR$/10-9">
@@ -360,26 +375,23 @@
     <configuration name="頭條.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="頭條.js" working-dir="$PROJECT_DIR$/9-20" />
     <configuration name="希尔排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="希尔排序.js" working-dir="$PROJECT_DIR$/排序" />
     <configuration name="归并排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="归并排序.js" working-dir="$PROJECT_DIR$/排序" />
-    <configuration name="object.prototype判断数据类型.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="object.prototype判断数据类型.js" working-dir="$PROJECT_DIR$/判断数据类型">
-      <method v="2" />
-    </configuration>
-    <configuration name="url.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="url.js" working-dir="$PROJECT_DIR$/判断数据类型">
+    <configuration name="手写bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="手写bind.js" working-dir="$PROJECT_DIR$/手写bind">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.选择排序.js" />
-      <item itemvalue="Node.js.object.prototype判断数据类型.js" />
-      <item itemvalue="JavaScript Debug.单行文本超出隐藏并显示省略号.html" />
-      <item itemvalue="Node.js.url.js" />
-      <item itemvalue="JavaScript Debug.判断数据类型.html" />
+      <item itemvalue="Node.js.手写bind.js" />
+      <item itemvalue="JavaScript Debug.手写bind.html" />
+      <item itemvalue="JavaScript Debug.手写bind2.html" />
+      <item itemvalue="JavaScript Debug.手写简单的v-show.html" />
+      <item itemvalue="JavaScript Debug.简易vue双向绑定.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.object.prototype判断数据类型.js" />
-        <item itemvalue="JavaScript Debug.判断数据类型.html" />
-        <item itemvalue="Node.js.url.js" />
-        <item itemvalue="JavaScript Debug.单行文本超出隐藏并显示省略号.html" />
-        <item itemvalue="Node.js.选择排序.js" />
+        <item itemvalue="JavaScript Debug.手写简单的v-show.html" />
+        <item itemvalue="JavaScript Debug.简易vue双向绑定.html" />
+        <item itemvalue="JavaScript Debug.手写bind2.html" />
+        <item itemvalue="JavaScript Debug.手写bind.html" />
+        <item itemvalue="Node.js.手写bind.js" />
       </list>
     </recent_temporary>
   </component>
@@ -479,14 +491,7 @@
       <workItem from="1539073298103" duration="4454000" />
       <workItem from="1539155348405" duration="566000" />
       <workItem from="1539328706314" duration="4488000" />
-      <workItem from="1539343906234" duration="2617000" />
-    </task>
-    <task id="LOCAL-00041" summary="算法">
-      <created>1535178399366</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1535178399366</updated>
+      <workItem from="1539343906234" duration="5794000" />
     </task>
     <task id="LOCAL-00042" summary="算法">
       <created>1535333849697</created>
@@ -824,11 +829,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539155413819</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="object.prototype.toString,call()判断数据类型">
+      <created>1539347520001</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1539347520001</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262018000" />
+    <option name="totallyTimeSpent" value="265195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,12 +855,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19815059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19815059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3248227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42695037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -901,7 +913,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.16" />
     <MESSAGE value="8.18" />
     <MESSAGE value="8.20" />
     <MESSAGE value="算法" />
@@ -926,7 +937,8 @@
     <MESSAGE value="闭包demo" />
     <MESSAGE value="簡易vue双向绑定" />
     <MESSAGE value="微盟" />
-    <option name="LAST_COMMIT_MESSAGE" value="微盟" />
+    <MESSAGE value="object.prototype.toString,call()判断数据类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="object.prototype.toString,call()判断数据类型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,41 +972,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/9-26/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-26/百度金融.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-26/百度金融2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-26/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9-11/明明的数学课-计算年份.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9-13/通用的事件侦听器函数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1194,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-2/简易vue双向绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9-30/闭包demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1287,13 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/判断数据类型/url.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1310,8 +1273,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/判断数据类型/object.prototype判断数据类型.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/选择排序.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vuev-bind/v-bind.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写bind2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-2/简易vue双向绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写简单的v-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
