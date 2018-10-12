@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function type(a) {
+        var typestring=Object.prototype.toString.call(a);
+        var regex=	/^\[object (\w+)\]$/;
+        var a=typestring.match(regex)
+        console.log(a.$1.toLocaleLowerCase())
+    }
+    var a;
+    var b=null;
+    var c=function () {
+        console.log(1)
+    };
+    var d=[1,2];
+    var e={};
+    type(a);
+    type(b);
+    type(c);
+    type(d);
+    type(e);
+</script>
+</body>
+</html>
