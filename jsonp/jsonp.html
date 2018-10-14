@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsonp</title>
+</head>
+<body>
+<!--把创建script标签的步骤封装在一个函数中:-->
+<script>
+
+
+      function creatScriptTag (srcString) {
+          let script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = srcString;
+          document.getElementsByTagName('head')[0].appendChild(script);
+      }
+
+      creatScriptTag('./jsonp.js');
+
+      function callback (data) {
+          alert(data.name+data.age);
+    }
+</script>
+</body>
+</html>
