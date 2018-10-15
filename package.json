@@ -1,0 +1,23 @@
+{
+  "name": "beauty",
+  "version": "1.0.0",
+  "description": "一个简单漂亮的倒计时/时钟动画 采用Canvas\r 效果如图：",
+  "main": "countdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duankai8757/beautiful-countdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duankai8757/beautiful-countdown/issues"
+  },
+  "homepage": "https://github.com/duankai8757/beautiful-countdown#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue": "^2.5.17"
+  }
+}
