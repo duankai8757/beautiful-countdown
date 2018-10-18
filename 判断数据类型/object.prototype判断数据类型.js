@@ -2,6 +2,7 @@ function type(a) {
     var typestring=Object.prototype.toString.call(a);
     var regex=	/^\[object (\w+)\]$/;
     typestring.match(regex);
+    console.log(RegExp.$1.toLocaleLowerCase())
     return RegExp.$1.toLocaleLowerCase()
 }
 var a;

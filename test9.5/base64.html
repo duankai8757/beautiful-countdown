@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" onchange="xmTanUploadImg(this)" accept="image/*" style="width: 100px;height: 50px">
+<img src="" id="im">
+<script>
+    var img = document.getElementById("im");
+    function xmTanUploadImg(obj) {
+        var file = obj.files[0];
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            img.src = e.target.result;
+        }
+        reader.readAsDataURL(file)
+    }
+
+</script>
+</body>
+</html>

@@ -20,6 +20,8 @@
             //  好像又引入了apply这种骚东西，是的后面我们再分析。
             //  这里返回了一个闭包函数， 里面可以使用 obj ， arg1 ， fun 这些变量，配合起来实现了bind
             //  感兴趣的朋友可以用ie8测试 bind已经生效了
+            //arg1.concat([].slice.call(arguments,1))将原构造函数的参数和新传入的参数合并
+            //这段contact的意思就是把bind()中传的参数和func()中传的参数连起来
         }
     }
     /*}else{
