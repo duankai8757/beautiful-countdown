@@ -13,6 +13,7 @@
     /*if(Function.prototype.bind === undefined){
         console.log('您的浏览器不支持bind方法! 开始使用手写bind功能!');*/
     Function.prototype.bind = function(obj){
+        console.log(arguments)
         var arg1 = [].slice.call(arguments,1);  // 解释一下骚操作，用arg1 保留了 当函数调用bind方法时候传  入的参数，因为arguments是类数组对象，我们借用了数组的slice方法
         var fun = this; // fun —> bind调用者(也就是某个函数)
         return function(){

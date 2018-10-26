@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9444ea76-747f-453b-a3d0-7a2813fba6d0" name="Default" comment="-">
-      <change afterPath="$PROJECT_DIR$/9.10/23.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.10/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/归并排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/排序/归并排序.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写bind/手写bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/手写bind/手写bind.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +18,24 @@
     <session id="1479102075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="21" />
-          <entry key="js" value="53" />
+          <entry key="html" value="22" />
+          <entry key="js" value="54" />
           <entry key="json" value="3" />
           <entry key="md" value="1" />
           <entry key="ts" value="1" />
@@ -43,16 +43,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="22" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="53" />
+          <entry key="JavaScript" value="54" />
           <entry key="Markdown" value="1" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1411" />
+          <entry key="html" value="1428" />
           <entry key="js" value="3108" />
           <entry key="txt" value="82" />
         </counts>
@@ -65,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1411" />
+          <entry key="HTML" value="1428" />
           <entry key="JavaScript" value="3108" />
           <entry key="PLAIN_TEXT" value="82" />
         </counts>
@@ -74,17 +74,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/分页组件/分页组件.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-1055">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="n#!!block;n#onlyNumberType#0" />
                 <element signature="e#1741#9330#0" />
                 <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写bind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/手写bind/手写bind.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -176,7 +194,6 @@
         <option value="$PROJECT_DIR$/剑指offer/打印一个链表.js" />
         <option value="$PROJECT_DIR$/剑指offer/重建二叉樹.js" />
         <option value="$PROJECT_DIR$/手写bind/手写bind10-16.js" />
-        <option value="$PROJECT_DIR$/手写bind/手写bind.html" />
         <option value="$PROJECT_DIR$/判断数据类型/object.prototype判断数据类型.js" />
         <option value="$PROJECT_DIR$/css/实现一个三角形/实现一个三角形.html" />
         <option value="$PROJECT_DIR$/JS作用域/作用域.html" />
@@ -190,6 +207,7 @@
         <option value="$PROJECT_DIR$/9.10/23.js" />
         <option value="$PROJECT_DIR$/9.10/test.js" />
         <option value="$PROJECT_DIR$/排序/归并排序.js" />
+        <option value="$PROJECT_DIR$/手写bind/手写bind.html" />
       </list>
     </option>
   </component>
@@ -290,14 +308,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.归并排序.js">
-    <configuration name="实现一个三角形.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/css/实现一个三角形/实现一个三角形.html">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.手写bind.html">
     <configuration name="作用域.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/JS作用域/作用域.html">
       <method v="2" />
     </configuration>
     <configuration name="base64.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/test9.5/base64.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="手写bind.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/beautiful-countdown/手写bind/手写bind.html">
       <method v="2" />
     </configuration>
     <configuration name="23.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="23.js" working-dir="$PROJECT_DIR$/9.10">
@@ -320,26 +338,23 @@
     <configuration name="买糖果.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="买糖果.js" working-dir="$PROJECT_DIR$/9.10" />
     <configuration name="希尔排序.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="希尔排序.js" working-dir="$PROJECT_DIR$/排序" />
     <configuration name="猪八戒.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="猪八戒.js" working-dir="$PROJECT_DIR$/9-25" />
-    <configuration name="let.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="let.js" working-dir="$PROJECT_DIR$/JS作用域">
-      <method v="2" />
-    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/9.10">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.let.js" />
       <item itemvalue="JavaScript Debug.base64.html" />
       <item itemvalue="Node.js.23.js" />
       <item itemvalue="Node.js.test.js" />
       <item itemvalue="Node.js.归并排序.js" />
+      <item itemvalue="JavaScript Debug.手写bind.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.手写bind.html" />
         <item itemvalue="Node.js.归并排序.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.23.js" />
         <item itemvalue="JavaScript Debug.base64.html" />
-        <item itemvalue="Node.js.let.js" />
       </list>
     </recent_temporary>
   </component>
@@ -445,14 +460,9 @@
       <workItem from="1539650302575" duration="18482000" />
       <workItem from="1539828570010" duration="7281000" />
       <workItem from="1539931373546" duration="3422000" />
-      <workItem from="1540262353094" duration="1584000" />
-    </task>
-    <task id="LOCAL-00048" summary="flex">
-      <created>1535448417728</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1535448417728</updated>
+      <workItem from="1540262353094" duration="2213000" />
+      <workItem from="1540367531528" duration="599000" />
+      <workItem from="1540516982303" duration="2023000" />
     </task>
     <task id="LOCAL-00049" summary="flex圣杯布局">
       <created>1535449751747</created>
@@ -790,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539875716903</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="-">
+      <created>1540357891684</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1540357891685</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307260000" />
+    <option name="totallyTimeSpent" value="310511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,13 +824,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19352709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.564539" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.564539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4638298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1120,13 +1138,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS作用域/作用域.html" />
-    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/单行文本超出隐藏并显示省略号/单行文本超出隐藏并显示省略号.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1229,9 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,13 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1260,22 +1261,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/分页组件/分页组件.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="-1055">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="n#!!block;n#onlyNumberType#0" />
             <element signature="e#1741#9330#0" />
             <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/手写bind/手写bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
